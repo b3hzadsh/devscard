@@ -1,20 +1,19 @@
 import type { Config } from '@/types/data';
-import { enUS } from 'date-fns/locale';
+import faIR from 'date-fns/esm/locale/fa-IR';
 import type { ReadonlyDeep } from 'type-fest';
 
 const config = {
   i18n: {
-    locale: enUS,
-    dateFormat: 'MMMM yyyy',
+    locale: faIR,
+    dateFormat: 'yyyy MMMM',
     translations: {
-      now: 'now',
+      now: 'همین حالا',
     },
   },
   meta: {
-    title: 'Mark Freeman - Senior React Developer',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sodales ac dui at vestibulum. In condimentum metus id dui tincidunt, in blandit mi vehicula.',
-    faviconPath: '/src/assets/my-image.jpeg',
+    title: 'B3hzadsh - INTJ Guy',
+    description: 'Like the sun,I rise again',
+    faviconPath: '/src/assets/my-image.jpg',
   },
   pdf: {
     footer:
